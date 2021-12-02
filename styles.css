@@ -1,18 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 :root{
     --primary-color: #93C5FD;
+    --dark-gray:#9CA3AF;
+    --off-white:#E5E7EB;
 }
 body{
 font-family: 'Raleway', sans-serif;
+margin:1px;
 }
 hr{
     margin: 2rem 0rem;
 }
-.containercen{
+.containerflu{
     padding-left: 1rem;
     padding-right: 1rem;
 }
-.containerflu{
+.containercen{
     max-width: 600px;
     margin:auto;
 }
@@ -40,9 +43,9 @@ hr{
 }
 .navigation {
     background-color: var(--primary-color);
-color: white;
-padding:1rem;
-border-bottom-left-radius: 1rem 1rem;
+    color: white;
+    padding:1rem;
+    border-bottom-left-radius: 1rem 1rem;
 }
 .navigation .nav-brand{
     font-weight: bold;
@@ -58,14 +61,37 @@ border-bottom-left-radius: 1rem 1rem;
     font-weight: bold;
 }
 .hero{
-    padding: 1rem;
+    padding: 2rem;
 }
 .hero .hero-img{
     max-width: 350px;
-    display block;
-    margin: auto;
+    display: block;
+    margin:auto;
 }
 .hero .hero-heading{
     padding-top:1rem;
-    color: var(--grey-color);
+    color: var(--dark-gray);
+}
+.hero .hero-heading .heading-inverted{
+    color: var(--primary-color);
+}
+.section{
+    text-align: center;
+    padding: 2rem;
+}
+.ow{
+    background-color: var(--off-white);
+}
+.footer{
+    background-color: var(--dark-gray);
+    padding: 1.5rem 0rem;
+    text-align:center;
+    color: white;
+    border-top-left-radius: 1rem;
+}
+.footer .link{
+    color: white;
+}
+.footer .ul{
+    padding-inline-start: 0px;
 }
